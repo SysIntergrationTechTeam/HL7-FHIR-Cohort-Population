@@ -24,7 +24,8 @@ InterSystems IRIS Studio
 1. Create an Integration Production in InterSystems IRIS for Health or HealthShare instance that receives 
 HL7 Radiology Results messages (Message Type - ORU_R01)
 
-![image](https://github.com/SysIntergrationTechTeam/Intersystems-Contest-FHIR/assets/110857238/14070e79-ed38-4705-8d2e-52587909b12f)
+![image](https://github.com/SysIntergrationTechTeam/HL7-FHIR-Cohort-Population/assets/110857238/68e76db6-4516-4d8e-a0a7-45e2956c08e1)
+
 
 ![image](https://github.com/SysIntergrationTechTeam/Intersystems-Contest-FHIR/assets/110857238/838e1af1-a7c1-47f0-a558-5df2250d761c)
  
