@@ -8,9 +8,9 @@ in from the PID segments in the HL7 messages. This process helps to create FHIR 
 research, and other purposes while expanding the InterSystems FHIR repository.
 
 ## Built With
-InterSystems FHIR Server,
-InterSystems HealthShare,
-InterSystems IRIS for Health,
+InterSystems FHIR Server
+InterSystems HealthShare
+InterSystems IRIS for Health
 InterSystems IRIS Studio
 
 ## Prerequisites
