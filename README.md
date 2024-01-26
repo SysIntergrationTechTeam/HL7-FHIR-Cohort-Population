@@ -27,22 +27,26 @@ HL7 Radiology Results messages (Message Type - ORU_R01)
 ![image](https://github.com/SysIntergrationTechTeam/HL7-FHIR-Cohort-Population/assets/110857238/68e76db6-4516-4d8e-a0a7-45e2956c08e1)
 
 
-![image](https://github.com/SysIntergrationTechTeam/HL7-FHIR-Cohort-Population/assets/110857238/838e1af1-a7c1-47f0-a558-5df2250d761c)
+![image](https://github.com/SysIntergrationTechTeam/HL7-FHIR-Cohort-Population/assets/110857238/12aa2faa-130a-4da7-a3ac-998d47d9e835)
+
  
 
 2. Create a Business Process Logic (BPL) in the InterSystems FHIR Namespace to parse in the HL7 Messages and create FHIR calls
        to search and create patients in the FHIR repository. Please refer to the BPLCode.cls file for complete code.
 
-![image](https://github.com/SysIntergrationTechTeam/Intersystems-Contest-FHIR/assets/110857238/51e1ce3b-d8e6-41e2-958e-172e4c63bd07)
+![image](https://github.com/SysIntergrationTechTeam/HL7-FHIR-Cohort-Population/assets/110857238/dd009200-53e1-43af-bc5f-b7e83137933b)
+
 
 
 
 3. Route the radiology result messages from HealthShare to the Service in the FHIR Server Production, process the messages through the BPL,
        and get information back in the Operation
 
-![image](https://github.com/SysIntergrationTechTeam/Intersystems-Contest-FHIR/assets/110857238/19599d00-c8c9-4bdf-879b-157620ea5dc8)
+![image](https://github.com/SysIntergrationTechTeam/HL7-FHIR-Cohort-Population/assets/110857238/13ae8a64-22f1-4126-abaa-b7327be50eb5)
 
-![image](https://github.com/SysIntergrationTechTeam/Intersystems-Contest-FHIR/assets/110857238/ac8084cd-836a-403f-852e-96a54fae8a06)
+
+![image](https://github.com/SysIntergrationTechTeam/HL7-FHIR-Cohort-Population/assets/110857238/5e41e8d9-4e79-4993-8a72-dc9f36ae63c1)
+
 
 ## Usage
 
@@ -51,17 +55,20 @@ HL7 Radiology Results messages (Message Type - ORU_R01)
   
 *Incoming HL7 Radiology Result Message*
 
-![image](https://github.com/SysIntergrationTechTeam/Intersystems-Contest-FHIR/assets/110857238/6b1d7ca1-7a65-4dff-bb4a-ab291040621f)
+![image](https://github.com/SysIntergrationTechTeam/HL7-FHIR-Cohort-Population/assets/110857238/9e5d7c30-b600-4918-9529-460edb5562ca)
+
 
 *Parse in the patient demographics data from the HL7 Message and search for the patient in the FHIR repository*
 
-![image](https://github.com/SysIntergrationTechTeam/Intersystems-Contest-FHIR/assets/110857238/4f3a8c27-d8c5-4747-9536-53d27320db0b)
+![image](https://github.com/SysIntergrationTechTeam/HL7-FHIR-Cohort-Population/assets/110857238/4fcff931-a95b-4c94-be43-3cc59aca68e4)
+
 
 *InterSystems FHIR server returns response after querying the repository with the Patient resource details*
 
-![image](https://github.com/SysIntergrationTechTeam/Intersystems-Contest-FHIR/assets/110857238/0ac4e6c1-6a8d-49c5-a73d-517ac2495249)
+![image](https://github.com/SysIntergrationTechTeam/HL7-FHIR-Cohort-Population/assets/110857238/35dc215e-2633-4ff0-aebd-46db939436fa)
 
-![image](https://github.com/SysIntergrationTechTeam/Intersystems-Contest-FHIR/assets/110857238/2b9d5daa-dca1-4c88-97ce-dd552e0873ba)
+
+![image](https://github.com/SysIntergrationTechTeam/HL7-FHIR-Cohort-Population/assets/110857238/16705eb3-00a1-4f4f-bde7-d6cc1b0e47b4)
 
 
 
@@ -69,30 +76,35 @@ HL7 Radiology Results messages (Message Type - ORU_R01)
   
 *Incoming HL7 Radiology Result Message*
 
-![image](https://github.com/SysIntergrationTechTeam/Intersystems-Contest-FHIR/assets/110857238/6b1d7ca1-7a65-4dff-bb4a-ab291040621f)
+![image](https://github.com/SysIntergrationTechTeam/HL7-FHIR-Cohort-Population/assets/110857238/8d543542-4563-4362-a0ad-d39c8afcd282)
+
 
 *Parse in the patient demographics data from the HL7 Message and search for the patient in the FHIR repository*
 
-![image](https://github.com/SysIntergrationTechTeam/Intersystems-Contest-FHIR/assets/110857238/4f3a8c27-d8c5-4747-9536-53d27320db0b)
+![image](https://github.com/SysIntergrationTechTeam/HL7-FHIR-Cohort-Population/assets/110857238/0db75c56-a325-4139-876c-6d936ea1c1f2)
+
 
 *InterSystems FHIR server returns response after querying for the patient in the repository*
 
-![image](https://github.com/SysIntergrationTechTeam/Intersystems-Contest-FHIR/assets/110857238/4a0e939f-ff2e-43fd-aff8-d0c3bfba4c62)
+![image](https://github.com/SysIntergrationTechTeam/HL7-FHIR-Cohort-Population/assets/110857238/4691f1a8-79ba-4829-869c-727a8ffffd4b)
 
 
 *FHIR POST call sends a request to create the Patient resource in the FHIR repository*
 
-![image](https://github.com/SysIntergrationTechTeam/Intersystems-Contest-FHIR/assets/110857238/d99cb433-14ab-4ae5-b588-d8f8fb3b2eb8)
+![image](https://github.com/SysIntergrationTechTeam/HL7-FHIR-Cohort-Population/assets/110857238/dceeeecb-e272-4a7f-b120-2ec868e29437)
+
 
 
 *InterSystems FHIR server returns response with **'HTTP/1.1 201 Created'** after creating the Patient resource successfully*
 
-![image](https://github.com/SysIntergrationTechTeam/Intersystems-Contest-FHIR/assets/110857238/47dda997-7dac-4b3d-b84f-6fc8ed5a5331)
+![image](https://github.com/SysIntergrationTechTeam/HL7-FHIR-Cohort-Population/assets/110857238/ff6225f5-d2b0-4166-9c88-af94146ee7fd)
+
 
 
 *Run SQL queries on the FHIR repository to get the details on the cohort that was created from the steps above*
 
-![image](https://github.com/SysIntergrationTechTeam/Intersystems-Contest-FHIR/assets/110857238/aeb8ba60-f7e3-4936-bd51-367f30b481da)
+![image](https://github.com/SysIntergrationTechTeam/HL7-FHIR-Cohort-Population/assets/110857238/83197de8-3f41-482d-8f4a-634950873a61)
+
 
 
 ## Authors and Acknowledgements
