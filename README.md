@@ -27,7 +27,7 @@ HL7 Radiology Results messages (Message Type - ORU_R01)
 ![image](https://github.com/SysIntergrationTechTeam/HL7-FHIR-Cohort-Population/assets/110857238/68e76db6-4516-4d8e-a0a7-45e2956c08e1)
 
 
-![image](https://github.com/SysIntergrationTechTeam/Intersystems-Contest-FHIR/assets/110857238/838e1af1-a7c1-47f0-a558-5df2250d761c)
+![image](https://github.com/SysIntergrationTechTeam/HL7-FHIR-Cohort-Population/assets/110857238/838e1af1-a7c1-47f0-a558-5df2250d761c)
  
 
 2. Create a Business Process Logic (BPL) in the InterSystems FHIR Namespace to parse in the HL7 Messages and create FHIR calls
